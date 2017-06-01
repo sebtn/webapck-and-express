@@ -1,5 +1,5 @@
-import React, { Componenet } from 'react'
+import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-ReactDOM.render(<App/>, document.getElementById('root`'))
+ReactDOM.render(<App/>, document.getElementById('root'))
 
