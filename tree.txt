@@ -1,0 +1,13 @@
+/home/seb/Sites/boillerPlate/
+├── app
+│   ├── app.js
+│   └── components
+├── package.json
+├── public
+│   ├── bundle.js
+│   └── index.html
+├── server.js
+├── tree.txt
+└── webpack.config.js
+
+3 directories, 7 files

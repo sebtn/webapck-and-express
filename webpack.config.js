@@ -1,26 +1,23 @@
 let path = require('path')
-let webapack = require('webapack')
+let webpack = require('webpack')
 
 module.exports = {
-	entry: 'app/app.js',
-	output: {
-		path: __dirname,
-		filename: 'public/bundle.js',
+	entry: {
+		path: ['./app/app.js']
 	},
-	resolve: {
-		root: __dirname,
-		alias: {},
-		extensions: [' ',  '.js',  '.jsx']
+	output: {
+		path:path.resolve( __dirname, 'public'),
+		filename: 'bundle.js',
 	},
 	module: {
 		loaders: [
 			{
+				test: /\.js|.jsx?$/,
+				exclude:/node_modules/,
 				loader: 'babel-loader',
 				query: {
-					presets: ['es2015 ',  'react', 'stage-0']
-				},
-				test: /\.js|.jsx?$/,
-				exclude:/node_modules/
+					presets: ["react", "babel-preset-stage-0", "babel-preset-es2015"]
+				}
 			}
 		]
 	}
