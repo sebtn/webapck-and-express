@@ -1,4 +1,4 @@
-/home/seb/Sites/boillerPlate/
+.
 ├── app
 │   ├── app.js
 │   └── components
