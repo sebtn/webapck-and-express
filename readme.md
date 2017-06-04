@@ -1,4 +1,4 @@
- #H3 How to use the boiler plate
+ ### How to use the boiler plate
 -----
 + Clone Repo to a desired folder
 
@@ -17,3 +17,4 @@
 + Start hacking and have fun!
 
 ----
+#####Seb
