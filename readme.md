@@ -14,7 +14,9 @@
 + Use `server.js` file to set up the desired port for local host.
 	By default is set to `port:3000`, however you can change it.
 
++ ReactJs, using webpack to bundle trans pilers and express server is ready to use.	
+
 + Start hacking and have fun!
 
 ----
-#####Seb
+----
